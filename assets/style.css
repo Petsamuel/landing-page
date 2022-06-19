@@ -225,7 +225,7 @@
         grid-column: 3;
     }
     
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:460px) and (max-width:560px) {
         header {
             background-image: var(--bg-hero-desktop);
             background-repeat: no-repeat;
