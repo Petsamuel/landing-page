@@ -230,7 +230,35 @@
         grid-column: 3;
     }
     
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:800px) {
+        a>img {
+            text-decoration: underline;
+            padding-right: 4px;
+            width: 150px;
+        }
+        h1 {
+            font-size: large;
+        }
+        .paragraph,
+        .item>p {
+            padding-top: 5px;
+            font-size: small;
+        }
+        .inner-col {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        .item {
+            align-self: center;
+            padding: 1.4rem 2rem;
+        }
+        .outro-text p .footer-content>div {
+            font-size: small;
+        }
+    }
+    
+    @media screen and (max-width:480px) and (max-width:600px) {
         header {
             background-image: var(--bg-hero-desktop);
             background-repeat: no-repeat;
@@ -252,9 +280,6 @@
             text-decoration: underline;
             padding-right: 4px;
             width: 130px;
-        }
-        .intro-text>h1 {
-            font-size: larger;
         }
         .intro-text>h1 {
             font-size: larger;
