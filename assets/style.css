@@ -256,6 +256,23 @@
         .outro-text p .footer-content>div {
             font-size: small;
         }
+        .copyright {
+            font-size: small;
+        }
+        .left>ul>li {
+            font-size: small;
+        }
+        .center>ul>li {
+            font-size: small;
+        }
+        .iconiz {
+            width: 20px;
+        }
+        .mailing {
+            border-radius: 5px;
+            background: white;
+            width: 300px;
+        }
     }
     
     @media screen and (max-width:480px) and (max-width:600px) {
