@@ -473,6 +473,7 @@ footer {
         padding: 2rem 3rem;
     }
     .image2 img {
+        margin-left: -35px;
         width: 150%;
         justify-self: center;
     }
