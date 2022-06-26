@@ -472,6 +472,10 @@ footer {
         width: 100%;
         padding: 2rem 3rem;
     }
+    .image2 img {
+        width: 150%;
+        justify-self: center;
+    }
     /***** End Section 2 *****/
     .intro-text {
         text-align: center;
